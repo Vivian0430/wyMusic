@@ -1,0 +1,185 @@
+.playerbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #F0F8FF;
+	z-index: 1;
+	border-top: 1px solid #E8E8E8;
+}
+
+.playerbar_playbtngroup {
+	float: left;
+	width: 220px;
+	height: 100%;
+	text-align: center;
+}
+
+.playerbar_playbtngroup>.btn {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: 16px;
+	border-radius: 50%;
+	position: relative;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	background-color: #c52f30;
+	color: #f7f7f7;
+	cursor: pointer;
+}
+
+.playerbar_playbtngroup>.btn.play {
+	width: 44px;
+	height: 44px;
+}
+
+.playerbar_playbtngroup>.btn>.fa {
+	position: relative;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	font-size: 1rem;
+	font-weight: lighter;
+}
+
+.playerbar_timeprogress>.progress {
+	position: relative;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	width: 150px;
+	height: 6px;
+	border-radius: 5px;
+	background-color: #cbcfd1;
+}
+
+.playerbar_timeprogress>.progress>.progress_curbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #e73d3d;
+}
+
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc {
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	box-shadow: 0 0 2px #bbb;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #c52f30;
+}
+
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.playerbar_timeprogress>.progress>.progress_cache {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #ababab;
+}
+
+.playerbar_timeprogress {
+	float: left;
+	width: calc(100% - 220px - 150px - 150px);
+	height: 100%;
+}
+
+.playerbar_timeprogress>.progress {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.playerbar_timeprogress>.progress>.time {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.playerbar_timeprogress>.progress>.start {
+	right: 101%;
+}
+
+.playerbar_timeprogress>.progress>.end {
+	left: 101%;
+}
+
+.playerbar .volume{
+	width: 150px;
+	height: 60px;
+	position: absolute;
+	right: 60px;
+	top: 0;
+}
+
+.volume .biaozhi{
+	position: relative;
+	top: 20px;
+	left: 0px;
+	size: 0.6rem;
+}
+
+.volume .yltiao{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	width: 100px;
+	height: 6px;
+	border-radius: 5px;
+	background-color: #cbcfd1;
+}
+
+.yltiao .daxiao{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-radius: 5px;
+	background-color: #e73d3d;
+}
+.daxiao .arc{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 2px #bbb;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	cursor: pointer;
+}

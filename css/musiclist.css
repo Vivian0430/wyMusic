@@ -1,0 +1,59 @@
+.musiclist>table {
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #fafafa;
+	color: #313131;
+}
+
+tr {
+	height: 30px;
+	text-align: center;
+}
+tr:nth-of-type(even) {
+	background: lightgrey;
+}
+
+
+.musiclist>table th {
+	padding-left: 15px;
+	max-width: 200px;
+	height: 2rem;
+	font-weight: lighter;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.musiclist>table th {
+	border-right: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	color: #6d7172;
+}
+
+.musiclist>table th:last-of-type {
+	border: none;
+}
+
+.musiclist>table td>img {
+	width: 100%;
+	height: auto;
+}
+
+
+.musiclist>table>tbody>tr:nth-of-type(odd) {
+	background-color: #f5f5f7;
+}
+
+.musiclist>table>tbody>tr:hover {
+	background-color: #e3e3e5;
+}
+
+.musiclist>table>tbody>tr>td:first-of-type {
+	padding-right: 10px;
+	text-align: right;
+	color: #9c9c9c;
+}
+.musiclist>table>tbody>tr>td.index.active {
+	color: #CC3333;
+}

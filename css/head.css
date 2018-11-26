@@ -1,0 +1,60 @@
+
+body {
+	font-size: 0.8rem;
+	font-family: "microsoft yahei";
+}
+.container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.container .head {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #c62f2f;
+}
+.head .wenzi {
+	color: white;
+	font-size: large;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: "arial narrow";
+    color: #CC3333;
+}
+
+.head .f1 {
+	color: white;
+	position: absolute;
+	left: 220px;
+	top: 20px;
+}
+
+.head .f2 {
+	color: white;
+	position: absolute;
+	left: 240px;
+	top: 20px;
+}
+
+.head .tansuo {
+	position: absolute;
+	left: 290px;
+	top: 19px;
+	height: 20px;
+	width: 160px;
+	cursor: text;
+}
+.tansuo .xiao{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}

@@ -1,0 +1,367 @@
+.zhongjian {
+	position: fixed;
+	left: 0;
+	top: 60px;
+	bottom: 60px;
+	width: 100%;
+}
+
+.zhongjian .left {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	bottom: 0px;
+	width: 220px;
+	background-color: #F0F8FF;
+	border-right: 1px solid #E8E8E8;
+	float: left;
+}
+
+.menulist {
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 60px;
+	overflow-y: scroll;
+}
+
+.menulist .title {
+	padding-left: 10px;
+	color: gray;
+}
+
+.menulist .menu {
+	padding-left: 20px;
+}
+
+.menu .xiala{
+	position: absolute;
+	right: 10px;
+}
+.gequ .tou{
+	color: #CC3333;
+	position: relative;
+	right: 18px;
+	font-weight: 10000;
+}
+
+.small {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	right: 0;
+	height: 60px;
+	border-top: 1px solid #E8E8E8;
+	background-color: #F0F8FF;
+}
+
+.small>.poster {
+	float: left;
+}
+.poster>.poster_hoverback {
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 60px;
+	height: 60px;
+	background-color: rgba(0,0,0,0.6);
+	color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+.poster:hover>.poster_hoverback {
+	display:block
+}
+
+.poster>.poster_hoverback>.fa {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 1.8rem;
+	font-weight: lighter;
+}
+.small .info{
+	float: left;
+	position: absolute;
+	top: 10px;
+	left: 70px;
+}
+
+.small>.btns>#collect.active{
+	color: #CC3333;
+}
+
+.zhongjian .content {
+	position: absolute;
+	left: 220px;
+	top: 0px;
+	bottom: 0px;
+	right: 0;
+	float: left;
+}
+
+.content .music {
+	height: 120px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.music .poster {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.poster .yy {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: black;
+	opacity: 0.6;
+}
+
+.yy>.heart .fa{
+	position: absolute;
+	top:15%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%);
+	font-size:80px;
+}
+
+.music .gedan {
+	background-color: white;
+	color: #CC3333;
+	position: absolute;
+	left: 129px;
+	top: 10px;
+	height: 20px;
+	width: 35px;
+	text-align: center;
+	float: left;
+	border: 1px solid #CC3333;
+	font-size: 0.9rem;
+}
+.music .yonghu {
+	color: #000000;
+	position: absolute;
+	left: 170px;
+	top: 9px;
+	font-size: 1rem;
+	float: left;
+}
+.music .fuhao{
+	position: absolute;
+	left: 130px;
+	top: 35px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background-color: lightgrey;
+   /* background-image: url(../img/19244752021234543.jpg);*/
+}
+
+.music .yonghuming {
+	color: #000000;
+	position: absolute;
+	left: 180px;
+	top: 40px;
+	font-size: 0.6rem;
+}
+.yonghuming:hover{
+	color: #CC3333;
+	text-decoration: none;
+}
+.music .data {
+	color: #000000;
+	position: absolute;
+	left: 220px;
+	top: 40px;
+	font-size: 0.6rem;
+}
+.music .bofang {
+	color: #000000;
+	position: absolute;
+	left: 130px;
+	top: 70px;
+	padding: 2px;
+	font-size: 0.6rem;
+	border-top: 0.2px solid gray;
+	border-bottom: 0.2px solid gray;
+	border-left: 0.2px solid gray;
+	border-right: 0.2px solid gray;
+}
+.music .jia {
+	color: #000000;
+	position: absolute;
+	left: 200px;
+	top: 70px;
+	padding: 2px 0 2px 1px;
+	font-size: 0.6rem;
+	border-top: 0.2px solid gray;
+	border-bottom: 0.2px solid gray;
+	border-right: 0.2px solid gray;
+}
+.music .shoucang {
+	color: #000000;
+	position: absolute;
+	left: 230px;
+	top: 70px;
+	padding: 2px;
+	font-size: 0.6rem;
+	border-top: 0.2px solid gray;
+	border-bottom: 0.2px solid gray;
+	border-left: 0.2px solid gray;
+	border-right: 0.2px solid gray;
+}
+.music .fenxiang {
+	color: #000000;
+	position: absolute;
+	left: 300px;
+	top: 70px;
+	padding: 2px;
+	font-size: 0.6rem;
+	border-top: 0.2px solid gray;
+	border-bottom: 0.2px solid gray;
+	border-left: 0.2px solid gray;
+	border-right: 0.2px solid gray;
+}
+.music .xiazai {
+	color: #000000;
+	position: absolute;
+	left: 370px;
+	top: 70px;
+	padding: 2px;
+	font-size: 0.6rem;
+	border-top: 0.2px solid gray;
+	border-bottom: 0.2px solid gray;
+	border-left: 0.2px solid gray;
+	border-right: 0.2px solid gray;
+}
+.music .shuzi {
+	color: #000000;
+	position: absolute;
+	right: 55px;
+	top: 10px;
+	font-size: 0.6rem;
+}
+
+.music .bofangshu {
+	color: #000000;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 0.6rem;
+}
+.content .list{
+	position: absolute;
+	top: 110px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-sizing: border-box;
+}
+.list .btngroups{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	height: 70px;
+}
+.btngroups .btn1{
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	height: 20px;
+	width: 80px;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #CC3333;
+	color: white;
+    border-top: 1px solid lightslategray;
+	border-right:1px solid lightslategray;
+	border-left: 1px solid lightslategray;
+} 
+.btngroups .btn2{
+	position: absolute;
+	left: 140px;
+	bottom: 0px;
+	height: 20px;
+	width: 80px;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	border-top: 1px solid lightslategray;
+	border-right:1px solid lightslategray;
+	border-left: 1px solid lightslategray;
+}
+.btngroups .btn3{
+	position: absolute;
+	left: 260px;
+	bottom: 0px;
+	height: 20px;
+	width: 80px;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	border-top: 1px solid lightslategray;
+	border-right:1px solid lightslategray;
+	border-left: 1px solid lightslategray;
+}
+.list .bottom{
+    position: absolute;
+	top: 70px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+    border-top: 2px solid #CC3333;
+    box-sizing: border-box;
+}
+
+.bottom .musiclist{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+.bottom .plun{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	
+	display: none;
+}
+
+.bottom .scang{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	
+	display: none;
+}
